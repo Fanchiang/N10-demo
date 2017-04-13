@@ -1,0 +1,13 @@
+@import 'compass/css3';
+* {
+    @include box-sizing(border-box);
+}
+
+a {
+    text-decoration: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}

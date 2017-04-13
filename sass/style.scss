@@ -1,0 +1,87 @@
+/* note nav */
+
+nav {
+    width: 100%;
+    height: 50px;
+    psoition: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #fff;
+    top: 0;
+    left: 0;
+    padding-top: 12px;
+    .brand {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: white;
+    }
+    ul.nav-list {
+        list-style: none;
+        padding: 0;
+        float: right;
+        li {
+            float: left;
+            margin-left: 20px;
+            a {
+                color: white;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+
+/* note header */
+
+header.jumbotron {
+    height: 500px;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    * {
+        color: white;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+}
+
+
+/* note section */
+
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .section-title {
+        text-align: center;
+    }
+}
+
+
+/* basicIntronSection */
+
+section#basicIntronSection {
+    .portrait {
+        width: 100px;
+        height: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+/* note awardSection */
+
+section#awardSection {
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/award-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    .award-icons {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
